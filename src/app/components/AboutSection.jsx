@@ -60,8 +60,8 @@ const AboutSection = () => {
           <Image
             src="/images/about-image.png"
             alt="about image"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
           />
         </div>
 
@@ -70,7 +70,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
           I'm a passionate and driven Web Developer with experience in both front-end and back-end development. I recently completed my Master of Information Technology at Flinders University.
           <br/>
-          I have experience working with technologies such as React, TypeScript, Next.js, Tailwind CSS, Node.js, and MongoDB. During my internships I gained a deep understanding of responsive design, UI/UX principles, and back-end development. I enjoy creating clean, user-friendly interfaces and thrive in Agile team environments.
+          I have experience working with technologies such as React, TypeScript, Next.js, Tailwind CSS, Node.js, and MongoDB. I enjoy creating clean, user-friendly interfaces and thrive in Agile team environments.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
