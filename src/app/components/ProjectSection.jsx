@@ -7,12 +7,12 @@ import {motion,useInView} from "framer-motion"
 const projectData=[
   {
     id:1,
-    title:"React Portfolio Website",
-    description:"A responsive and customizable portfolio website using NextJs and Tailwind.",
+    title:"Ecommerce Store",
+    description:"A Next.js Ecommerce Store using TypeScript, Tailwindcss, headlessui, and Shopify CMS.",
     image:"/images/projects/1.png",
     tag:["All","Web"],
     // gitUrl:"/",
-    previewUrl:"https://portfolio-website-alice.vercel.app/",
+    previewUrl:"https://next-commerce-alice.vercel.app/",
   },
   {
     id:2,
@@ -43,12 +43,12 @@ const projectData=[
   },
   // {
   //   id:5,
-  //   title:"React Portfolio Website",
+  //   title:"Ecommerce Store",
   //   description:"Project 5 description",
   //   image:"/images/projects/5.png",
   //   tag:["All","Web"],
-  //   gitUrl:"/",
-  //   previewUrl:"/",
+  //   // gitUrl:"/",
+  //   previewUrl:"https://next-commerce-alice.vercel.app/",
   // },
   // {
   //   id:6,
@@ -78,7 +78,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <section id="projects" ref={ref}>
+    <section id="projects"  ref={ref}>
     <h2 className='text-center text-4xl font-bold text-white'>
       My Projects
       </h2>
@@ -102,7 +102,7 @@ const ProjectSection = () => {
       isSelected={tag==="Mobile"}
       /> */}
     </div>
-    <ul className="grid md:grid-cols-3 gap-8 md:gap-12">
+    <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 md:gap-12">
   {filteredProjects.map((project) => (
     <li key={project.id}>
       <ProjectCard
