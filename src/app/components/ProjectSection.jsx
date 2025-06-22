@@ -5,15 +5,15 @@ import ProjectTag from './ProjectTag';
 import {motion,useInView} from "framer-motion"
 
 const projectData=[
-  {
-    id:1,
-    title:"AI-enhanced To-Do App",
-    description:"An AI-enhanced productivity app with task categorization, team collaboration, and planned PDF task extraction and priority recommendations, built with React, Next.js, .NET Core, Azure, and OpenAI API.",
-    image:"/images/projects/0.png",
-    tag:["All","Web"],
-    // gitUrl:"/",
-    previewUrl:"https://blotz-task-app.vercel.app/",
-  },
+  // {
+  //   id:1,
+  //   title:"AI-enhanced To-Do App",
+  //   description:"An AI-enhanced productivity app with task categorization, team collaboration, and planned PDF task extraction and priority recommendations, built with React, Next.js, .NET Core, Azure, and OpenAI API.",
+  //   image:"/images/projects/0.png",
+  //   tag:["All","Web"],
+  //   // gitUrl:"/",
+  //   previewUrl:"https://blotz-task-app.vercel.app/",
+  // },
   {
     id:2,
     title:"Ecommerce Store",
